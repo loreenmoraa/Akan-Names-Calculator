@@ -1,7 +1,9 @@
 Akan Name Generator by Loreen Moraa
+
 This project features a generator that derives an Akan names with regard to the day of the week that a user was born and their gender.
 
 Description
+
 Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.These names are called the Akan names.
 
 Therefore, this web application will take your birthday details and calculate the day of the week you were born and then depending on your gender, will give you your Akan Name
