@@ -70,7 +70,7 @@ function getAkanName() {
   else if (Math.round(result) == 6 || Math.round(result) == -6 && gender === 'female') {
     document.getElementById("final").innerHTML = ("You were born on Saturday, your Akan Name is " + femaleNames[6]);
   }
-
-  
-
+  else {
+    alert("please input all data");
+  }
 }
