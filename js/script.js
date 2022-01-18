@@ -15,5 +15,18 @@ function getAkanName() {
   //the formula
   var result = parseInt((((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7);
 
+  if (document.getElementById("gender").checked) {
+    var gender = 'male';
+  }
+  else {
+    var gender = 'female';
+  }
+  if (dd <= 0 || dd > 31) {
+    alert("invalid date");
+  }
+  else if (mm <= 0 || mm > 12) {
+    alert("invalid month");
+  }
+
   
 }
