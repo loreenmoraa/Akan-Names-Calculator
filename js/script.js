@@ -12,4 +12,8 @@ function getAkanName() {
   var yy = parseInt(year.toString().slice(2, 4));
   var cc = Math.ceil(year / 100)
 
+  //the formula
+  var result = parseInt((((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7);
+
+  
 }
