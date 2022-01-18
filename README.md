@@ -1,4 +1,4 @@
-Akan Name Generator by Karen Ngala
+Akan Name Generator by Loreen Moraa
 
 This project features a generator that derives an Akan names with regard to the day of the week that a user was born and their gender.
 
